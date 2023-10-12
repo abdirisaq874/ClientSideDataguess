@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  }
+}
+
+.x1 {
+  animation: animateBubble 15s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 6%;
+  top: 45%;
+  background: #ffb739;
+}
+.x2 {
+  animation: animateBubble 10s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 5%;
+  top: 80%;
+  background: #fc4fdd;
+}
+.x3 {
+  animation: animateBubble 12s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 10%;
+  top: 40%;
+  background: #5ed5cb;
+}
+.x4 {
+  animation: animateBubble 8s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 20%;
+  top: 0;
+  background: #3de4a3;
+}
+.x5 {
+  animation: animateBubble 9s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 30%;
+  top: 50%;
+  background: #fc4fb1;
+}
+.x6 {
+  animation: animateBubble 11s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 50%;
+  top: 0;
+  background: #2c4aff;
+}
+.x7 {
+  animation: animateBubble 10s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 65%;
+  top: 70%;
+  background: #ffb739;
+}
+.x8 {
+  animation: animateBubble 12s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 80%;
+  top: 10%;
+  background: #8f3de4;
+}
+.x9 {
+  animation: animateBubble 14s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 90%;
+  top: 50%;
+  background: #fff339;
+}
+.x10 {
+  animation: animateBubble 13s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 80%;
+  top: 80%;
+  background: #fc4f4f;
+}
+
+@keyframes animateBubble {
+  /* 0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  } */
+
+  0% {
+    margin-top: 20%;
+  }
+  100% {
+    margin-top: -30%;
+  }
+}
+
+@keyframes sideWays {
+  /* 0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(20px);
+  } */
+
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 25px;
+  }
+}
